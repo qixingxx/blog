@@ -7,11 +7,11 @@ import type { FriendLink } from "./types/friend"
 import type { I18nConfig } from "./types/i18n"
 
 export const siteConfig: SiteConfig = {
-    title: "柒星的小屋", // Title of the site, used in the tab in the browser and in SEO
+    title: "柒星", // Title of the site, used in the tab in the browser and in SEO
     subTitle: "Blog", // Subtitle of the site
     rootSiteUrl: "https://www.vista.xin", // Root URL of the site, used for generating absolute URLs for SEO and social sharing
 
-    favicon: "/favicon/favicon.ico", // Path of the favicon, relative to the /public directory
+    favicon: "/favicon/qixing.ico", // Path of the favicon, relative to the /public directory
 
     pageSize: 6, // Number of posts per page
     toc: {
@@ -24,7 +24,7 @@ export const siteConfig: SiteConfig = {
     comments: {
         enable: false, // Whether to enable comments
         platform: "twikoo", // Comment platform, set "default" to use Momo-backend, also supports "twikoo"
-        backendUrl: "" // When platform is "twikoo", fill in the Twikoo envId (Vercel/LeanCloud deployment address)
+        backendUrl: "https://qixingtwikoo.netlify.app/" // When platform is "twikoo", fill in the Twikoo envId (Vercel/LeanCloud deployment address)
     },
     theme: {
         AOS: true, // Whether to enable AOS (Animate On Scroll) for animations
@@ -56,7 +56,7 @@ export const licenseConfig: LicenseConfig = {
 
 export const i18nConfig: I18nConfig = {
     defaultLanguage: "zh-cn", // Default language of the site
-    supportedLanguages: ["zh-cn", "en"], // List of supported languages
+    supportedLanguages: ["zh-cn"], // List of supported languages
     translations: { // Translation content for each supported language
         "zh-cn": {
             Cover: {
@@ -69,7 +69,7 @@ export const i18nConfig: I18nConfig = {
                 subTitle: {
                     home: "生活多彩！",
                     archive: "共 {count} 篇文章", // {count} will be replaced with the total number of articles
-                    about: "一个极简的Blog模板",
+                    about: "有效信息！",
                     friends: "有趣的灵魂",
                 }
             }
