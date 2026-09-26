@@ -7,7 +7,7 @@ import type { FriendLink } from "./types/friend"
 import type { I18nConfig } from "./types/i18n"
 
 export const siteConfig: SiteConfig = {
-    title: "Momo", // Title of the site, used in the tab in the browser and in SEO
+    title: "柒星的小屋", // Title of the site, used in the tab in the browser and in SEO
     subTitle: "Blog", // Subtitle of the site
     rootSiteUrl: "https://momo.motues.top", // Root URL of the site, used for generating absolute URLs for SEO and social sharing
 
@@ -42,14 +42,14 @@ export const siteConfig: SiteConfig = {
 
 export const profileConfig: ProfileConfig = {
     avatar: "assets/Motues.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-    name: "Motues", // Used in the footer of the blog
+    name: "qixing", // Used in the footer of the blog
     description: "Life is colorful!", // Used in SEO
-    indexPage: "https://www.motues.top", // The homepage, used in footer and SEO
-    startYear: 2024, // The year the site was created, used in the footer
+    indexPage: "https://www.vista.xin/", // The homepage, used in footer and SEO
+    startYear: 2026, // The year the site was created, used in the footer
 }
 
 export const licenseConfig: LicenseConfig = {
-	enable: true, // Whether to enable license information
+	enable: false, // Whether to enable license information
 	name: "CC BY-NC-SA 4.0", // License name
 	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/", // License URL
 };
@@ -61,7 +61,7 @@ export const i18nConfig: I18nConfig = {
         "zh-cn": {
             Cover: {
                 title: {
-                    home: "欢迎来到 Momo 的博客",
+                    home: "欢迎来到柒星的小屋",
                     archive: "文章归档",
                     about: "关于",
                     friends: "友链",
@@ -77,7 +77,7 @@ export const i18nConfig: I18nConfig = {
         "en": {
             Cover: {
                 title: {
-                    home: "Welcome to Momo's Blog",
+                    home: "Welcome to qixing home",
                     archive: "Archive",
                     about: "About",
                     friends: "Friends",
