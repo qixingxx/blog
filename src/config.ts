@@ -23,8 +23,8 @@ export const siteConfig: SiteConfig = {
     },
     comments: {
         enable: false, // Whether to enable comments
-        platform: "default", // Comment platform, set "default" to use Momo-backend, also supports "twikoo"
-        backendUrl: "" // Backend URL for comments
+        platform: "twikoo", // Comment platform, set "default" to use Momo-backend, also supports "twikoo"
+        backendUrl: "" // When platform is "twikoo", fill in the Twikoo envId (Vercel/LeanCloud deployment address)
     },
     theme: {
         AOS: true, // Whether to enable AOS (Animate On Scroll) for animations
