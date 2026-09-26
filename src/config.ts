@@ -9,7 +9,7 @@ import type { I18nConfig } from "./types/i18n"
 export const siteConfig: SiteConfig = {
     title: "柒星的小屋", // Title of the site, used in the tab in the browser and in SEO
     subTitle: "Blog", // Subtitle of the site
-    rootSiteUrl: "https://momo.motues.top", // Root URL of the site, used for generating absolute URLs for SEO and social sharing
+    rootSiteUrl: "https://illustrious-biscochitos-5c5be5.netlify.app", // Root URL of the site, used for generating absolute URLs for SEO and social sharing
 
     favicon: "/favicon/favicon.ico", // Path of the favicon, relative to the /public directory
 
@@ -22,9 +22,9 @@ export const siteConfig: SiteConfig = {
         enable: true // Whether to enable blog navigation in the blog footer
     },
     comments: {
-        enable: true, // Whether to enable comments
+        enable: false, // Whether to enable comments
         platform: "default", // Comment platform, set "default" to use Momo-backend, also supports "twikoo"
-        backendUrl: "https://api-momo.motues.top" // Backend URL for comments
+        backendUrl: "" // Backend URL for comments
     },
     theme: {
         AOS: true, // Whether to enable AOS (Animate On Scroll) for animations

@@ -133,7 +133,6 @@ const jsonLd = JSON.stringify(schemas).replace(/</g, '\\u003c');
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0a0a0a">
     <link rel="alternate" type="application/rss+xml" title={getSiteTitle()} href={new URL("rss.xml", Astro.site)} >
     <link rel="icon" href={siteConfig.favicon} type="image/x-icon">
-    <script defer src="https://umami.motues.top/script.js" data-hash is:inline></script>
     <title>{pageTitle}</title>
     <script type="application/ld+json" set:html={jsonLd}></script>
     <ClientRouter />
